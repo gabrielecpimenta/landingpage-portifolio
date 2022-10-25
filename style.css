@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 18px;
+  padding: 12px;
   position: fixed;
   top: 0;
   left: 0;
@@ -31,6 +31,17 @@ body {
   height: 60px;
   object-fit: cover;
   border-radius: 30px;
+  flex-shrink: 0;
+	margin: 20px;
+	height: calc(2px + 3vw);
+	width: calc(2px + 3vw);
+	border: calc(2px + 0.1vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 150px
 }
 
 .menu-cabecalho {
@@ -51,6 +62,7 @@ body {
 
 .conteudo {
   margin-bottom: 48px;
+  margin-top: 150px;
 }
 
 .conteudo-principal {
@@ -82,10 +94,17 @@ body {
 }
 
 .foto-principal {
-  height: 300px;
+  flex-shrink: 0;
+	margin: 20px;
+	height: calc(150px + 6vw);
+	width: calc(150px + 6vw);
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
   border-radius: 150px;
-  object-fit: cover;
-  
 }
 .conteudo-secundario{
   display: flex;
@@ -135,3 +154,4 @@ body {
   font-size: 18px;
   color: #ecd6c4;
 }
+
