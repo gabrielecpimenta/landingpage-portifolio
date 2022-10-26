@@ -5,10 +5,14 @@
 Nela você vai encontrar:
 
 ✔️ HTML, CSS.
+
 ✔️ Link para meu perfil profissional do linkedin.
+
 ✔️ Link para meu repositório no github.
+##
 
 Estou trabalhando para adicionar:
+
 ⌚ Dinämicas com JavaScript
 
 
